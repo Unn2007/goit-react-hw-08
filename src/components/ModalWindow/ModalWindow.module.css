@@ -1,0 +1,29 @@
+.modalContent {
+  max-width: 400px;
+
+  position: relative;
+
+  margin: 0 auto;
+  padding: 2rem;
+
+  color: black;
+}
+
+.closeButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  padding: 0px 0px;
+
+  background-color: transparent;
+  color: black;
+  border: none;
+}
+
+.icon {
+  color: #1976d2;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+}

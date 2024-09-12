@@ -1,0 +1,42 @@
+.modalContent {
+  width: 300px;
+  height: 300px;
+  position: relative;
+
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  color: black;
+}
+
+.closeButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  padding: 0px 0px;
+
+  background-color: transparent;
+  color: black;
+}
+
+.modalContent button:hover {
+  border: none;
+  border-color: transparent;
+}
+
+.description {
+  position: absolute;
+  top: 2%;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 16px;
+  margin: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 800px;
+}

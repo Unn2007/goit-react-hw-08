@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  gap: 20px;
+}
+.list {
+  height: 756px;
+  overflow-y: scroll;
+}
